@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+  <title>Dashboard Toko - Dapur Bu Sari</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <style>
     body {
@@ -12,12 +12,10 @@
       background: #f0edff;
       font-family: Arial, sans-serif;
     }
-
     .container-main {
       max-width: 1200px;
       margin: 0 auto;
     }
-
     .navbar-custom {
       background: linear-gradient(135deg, #7c3aed 0%, #4c1d95 100%);
       border-radius: 12px;
@@ -26,7 +24,6 @@
       padding: 0 25px;
       min-height: 62px;
     }
-
     .navbar-custom .navbar-brand {
       color: #fff;
       font-weight: bold;
@@ -35,11 +32,7 @@
       margin-right: 40px;
       white-space: nowrap;
     }
-
-    .navbar-custom .navbar-brand:hover {
-      color: #ddd6fe;
-    }
-
+    .navbar-custom .navbar-brand:hover { color: #ddd6fe; }
     .navbar-custom .nav-link {
       color: #e9d5ff;
       font-weight: 500;
@@ -48,36 +41,29 @@
       border-radius: 8px;
       white-space: nowrap;
     }
-
     .navbar-custom .nav-link:hover,
     .navbar-custom .nav-link.active {
       color: #fff;
       background: rgba(196, 181, 253, .35);
     }
-
     .navbar-custom .navbar-toggler {
       border: 1px solid rgba(255, 255, 255, .4);
       padding: 6px 10px;
     }
-
     .navbar-custom .navbar-toggler-icon {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
-
-
     .slider-wrap {
       border-radius: 14px;
       overflow: hidden;
       box-shadow: 0 4px 14px rgba(76, 29, 149, .25);
       margin-bottom: 25px;
     }
-
     .slider-wrap img {
       height: 400px;
       width: 100%;
       object-fit: cover;
     }
-
     .carousel-caption {
       background: rgba(76, 29, 149, .78);
       border-radius: 10px;
@@ -89,24 +75,9 @@
       width: 82%;
       max-width: 650px;
     }
-
-    .carousel-caption h5 {
-      margin: 0;
-      font-weight: bold;
-      color: #fff;
-    }
-
-    .carousel-caption p {
-      margin: 3px 0 0;
-      font-size: .9rem;
-      color: #ede9fe;
-    }
-
-    .carousel-indicators [data-bs-target] {
-      background-color: #a78bfa;
-    }
-
-  
+    .carousel-caption h5 { margin: 0; font-weight: bold; color: #fff; }
+    .carousel-caption p { margin: 3px 0 0; font-size: .9rem; color: #ede9fe; }
+    .carousel-indicators [data-bs-target] { background-color: #a78bfa; }
     .dashboard {
       border-radius: 14px;
       background: #fff;
@@ -114,34 +85,10 @@
       box-shadow: 0 3px 12px rgba(76, 29, 149, .12);
       margin-bottom: 25px;
     }
-
-    .dashboard h2 {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #4c1d95;
-      margin-bottom: 15px;
-    }
-
-    .dashboard h3 {
-      font-size: 1rem;
-      font-weight: bold;
-      color: #4c1d95;
-      margin-bottom: 12px;
-    }
-
-    .dashboard h5 {
-      font-size: 1rem;
-      font-weight: bold;
-      color: #4c1d95;
-      margin-bottom: 10px;
-    }
-
-    .dashboard p {
-      font-size: .92rem;
-      color: #5b21b6;
-      line-height: 1.5;
-    }
-
+    .dashboard h2 { font-size: 1.5rem; font-weight: bold; color: #4c1d95; margin-bottom: 15px; }
+    .dashboard h3 { font-size: 1rem; font-weight: bold; color: #4c1d95; margin-bottom: 12px; }
+    .dashboard h5 { font-size: 1rem; font-weight: bold; color: #4c1d95; margin-bottom: 10px; }
+    .dashboard p { font-size: .92rem; color: #5b21b6; line-height: 1.5; }
     .kotak {
       border: 1px solid #ddd6fe;
       border-top: 4px solid #7c3aed;
@@ -150,48 +97,18 @@
       padding: 18px;
       height: 100%;
       box-shadow: 0 2px 8px rgba(76, 29, 149, .08);
-      transition: .25s;
     }
-
-    .kotak:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 16px rgba(76, 29, 149, .18);
-    }
-
     .kotak-biru {
       background: linear-gradient(135deg, #7c3aed 0%, #4c1d95 100%);
       color: #fff;
       border: none;
     }
-
-    .kotak-biru h3,
-    .kotak-biru h5,
-    .kotak-biru p {
-      color: #fff;
-    }
-
-    .kotak-biru p {
-      color: #ede9fe;
-    }
-
-    .kotak-biru hr {
-      border-color: rgba(255, 255, 255, .35);
-    }
-
-    .kotak-biru .quote-box {
-      background: rgba(255, 255, 255, .15);
-      border-radius: 10px;
-      padding: 14px;
-    }
-
-    .kotak-biru .quote-box p {
-      color: #fff;
-    }
-
-    .kotak-biru small {
-      color: #ddd6fe;
-    }
-
+    .kotak-biru h3, .kotak-biru h5, .kotak-biru p { color: #fff; }
+    .kotak-biru p { color: #ede9fe; }
+    .kotak-biru hr { border-color: rgba(255, 255, 255, .35); }
+    .kotak-biru .quote-box { background: rgba(255, 255, 255, .15); border-radius: 10px; padding: 14px; }
+    .kotak-biru .quote-box p { color: #fff; }
+    .kotak-biru small { color: #ddd6fe; }
     .metrik {
       display: flex;
       justify-content: space-between;
@@ -201,69 +118,16 @@
       margin-bottom: 8px;
       border: 1px solid #ede9fe;
     }
-
-    .metrik span {
-      font-size: .9rem;
-      color: #5b21b6;
-    }
-
-    .metrik b {
-      color: #4c1d95;
-    }
-
-    .quick-link {
-      color: #6d28d9;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: .92rem;
-      margin-right: 14px;
-    }
-
-    .quick-link:hover {
-      color: #4c1d95;
-      text-decoration: underline;
-    }
-
-    .info-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      font-size: .9rem;
-      color: #5b21b6;
-      line-height: 1.6;
-    }
-
-    .badge-category {
-      background: #ede9fe;
-      color: #5b21b6;
-      border: 1px solid #c4b5fd;
-      font-weight: 600;
-      font-size: .78rem;
-      padding: 5px 10px;
-      border-radius: 20px;
-    }
-
-    .stat-box {
-      background: rgba(255, 255, 255, .16);
-      border-radius: 9px;
-      padding: 10px 12px;
-      margin-bottom: 8px;
-    }
-
-    .stat-box b {
-      color: #fff;
-    }
-
-    .stat-box span {
-      color: #ede9fe;
-      font-size: .9rem;
-    }
-
-    .rating {
-      color: #facc15;
-    }
-
-
+    .metrik span { font-size: .9rem; color: #5b21b6; }
+    .metrik b { color: #4c1d95; }
+    .quick-link { color: #6d28d9; text-decoration: none; font-weight: 600; font-size: .92rem; margin-right: 14px; }
+    .quick-link:hover { color: #4c1d95; text-decoration: underline; }
+    .info-list { list-style: none; padding: 0; margin: 0; font-size: .9rem; color: #5b21b6; line-height: 1.6; }
+    .badge-category { background: #ede9fe; color: #5b21b6; border: 1px solid #c4b5fd; font-weight: 600; font-size: .78rem; padding: 5px 10px; border-radius: 20px; }
+    .stat-box { background: rgba(255, 255, 255, .16); border-radius: 9px; padding: 10px 12px; margin-bottom: 8px; }
+    .stat-box b { color: #fff; }
+    .stat-box span { color: #ede9fe; font-size: .9rem; }
+    .rating { color: #facc15; }
     .galeri-title {
       background: linear-gradient(135deg, #7c3aed, #4c1d95);
       color: #fff;
@@ -271,33 +135,10 @@
       padding: 14px 20px;
       margin-bottom: 15px;
     }
-
-    .galeri-title h3 {
-      margin: 0;
-      color: #fff;
-      font-weight: bold;
-    }
-
-    .galeri-title p {
-      margin: 2px 0 0;
-      color: #ede9fe;
-      font-size: .9rem;
-    }
-
-    .galeri-wrap {
-      border-radius: 14px;
-      overflow: hidden;
-      box-shadow: 0 4px 14px rgba(76, 29, 149, .25);
-      margin-bottom: 25px;
-    }
-
-    .galeri-wrap img {
-      height: 400px;
-      width: 100%;
-      object-fit: cover;
-    }
-
- 
+    .galeri-title h3 { margin: 0; color: #fff; font-weight: bold; }
+    .galeri-title p { margin: 2px 0 0; color: #ede9fe; font-size: .9rem; }
+    .galeri-wrap { border-radius: 14px; overflow: hidden; box-shadow: 0 4px 14px rgba(76, 29, 149, .25); margin-bottom: 25px; }
+    .galeri-wrap img { height: 400px; width: 100%; object-fit: cover; }
     .footer-custom {
       background: linear-gradient(135deg, #7c3aed 0%, #4c1d95 100%);
       color: #fff;
@@ -305,235 +146,92 @@
       padding: 30px 30px 18px;
       box-shadow: 0 3px 10px rgba(76, 29, 149, .35);
     }
-
-    .footer-custom h5 {
-      font-size: 1.05rem;
-      font-weight: bold;
-      color: #fff;
-      border-bottom: 1px solid rgba(255, 255, 255, .3);
-      padding-bottom: 10px;
-      margin-bottom: 14px;
-    }
-
-    .footer-custom p,
-    .footer-custom a {
-      color: #e9d5ff;
-      font-size: .9rem;
-      text-decoration: none;
-    }
-
-    .footer-custom a:hover {
-      color: #fff;
-      text-decoration: underline;
-    }
-
+    .footer-custom h5 { font-size: 1.05rem; font-weight: bold; color: #fff; border-bottom: 1px solid rgba(255, 255, 255, .3); padding-bottom: 10px; margin-bottom: 14px; }
+    .footer-custom p, .footer-custom a { color: #e9d5ff; font-size: .9rem; text-decoration: none; }
+    .footer-custom a:hover { color: #fff; text-decoration: underline; }
     .footer-custom .social-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 34px;
-      height: 34px;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, .2);
-      color: #fff;
-      font-weight: bold;
-      font-size: .75rem;
-      margin-right: 6px;
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255, 255, 255, .2); color: #fff; font-weight: bold; font-size: .75rem; margin-right: 6px;
     }
-
-    .footer-custom .social-btn:hover {
-      background: #fff;
-      color: #4c1d95;
-    }
-
-    .footer-custom .newsletter-input {
-      border-radius: 8px 0 0 8px;
-      border: none;
-      padding: 8px 12px;
-      width: 70%;
-    }
-
-    .footer-custom .newsletter-btn {
-      background: #a78bfa;
-      color: #fff;
-      border: none;
-      padding: 8px 14px;
-      border-radius: 0 8px 8px 0;
-      font-weight: bold;
-    }
-
-    .footer-custom .newsletter-btn:hover {
-      background: #8b5cf6;
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, .25);
-      margin-top: 20px;
-      padding-top: 14px;
-      text-align: center;
-      font-size: .85rem;
-      color: #ddd6fe;
-    }
+    .footer-custom .social-btn:hover { background: #fff; color: #4c1d95; }
+    .footer-custom .newsletter-input { border-radius: 8px 0 0 8px; border: none; padding: 8px 12px; width: 70%; }
+    .footer-custom .newsletter-btn { background: #a78bfa; color: #fff; border: none; padding: 8px 14px; border-radius: 0 8px 8px 0; font-weight: bold; }
+    .footer-custom .newsletter-btn:hover { background: #8b5cf6; }
+    .footer-bottom { border-top: 1px solid rgba(255, 255, 255, .25); margin-top: 20px; padding-top: 14px; text-align: center; font-size: .85rem; color: #ddd6fe; }
   </style>
 </head>
 <body>
-
   <div class="container-main">
-
     <nav class="navbar navbar-expand-lg navbar-custom">
       <div class="container-fluid p-0">
-        <a class="navbar-brand" href="#">
-          Dashboard
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
+        <a class="navbar-brand" href="#">Dapur Bu Sari</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Produk</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pesanan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Laporan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profil</a>
-            </li>
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Produk</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pesanan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Laporan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Profil</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div
-      id="carouselAtas"
-      class="carousel slide slider-wrap"
-      data-bs-ride="carousel"
-      data-bs-interval="3000"
-    >
+    <div id="carouselAtas" class="carousel slide slider-wrap" data-bs-ride="carousel" data-bs-interval="3000">
       <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselAtas"
-          data-bs-slide-to="0"
-          class="active"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselAtas"
-          data-bs-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselAtas"
-          data-bs-slide-to="2"
-        ></button>
+        <button type="button" data-bs-target="#carouselAtas" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselAtas" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselAtas" data-bs-slide-to="2"></button>
       </div>
-
       <div class="carousel-inner">
-
-       
         <div class="carousel-item active">
-          <img
-            id="fotoAtas0"
-            src=""
-            class="d-block w-100"
-            alt="Slide 1"
-          >
+          <img id="fotoAtas0" src="img/atas1.jpg" class="d-block w-100" alt="Brownies cokelat di etalase toko">
           <div class="carousel-caption">
-            <h5>Selamat Datang di Dashboard</h5>
-            <p>Ini contoh caption slider</p>
+            <h5>Selamat Datang di Dapur Bu Sari</h5>
+            <p>Kue dibuat fresh setiap pagi, bisa pesan H-1 untuk acara.</p>
           </div>
         </div>
-
-       
         <div class="carousel-item">
-          <img
-            id="fotoAtas1"
-            src=""
-            class="d-block w-100"
-            alt="Slide 2"
-          >
+          <img id="fotoAtas1" src="img/atas2.jpg" class="d-block w-100" alt="Promo hampers kue">
           <div class="carousel-caption">
-            <h5>Promo Spesial Hari Ini</h5>
-            <p>Diskon untuk semua produk kue</p>
+            <h5>Promo Minggu Ini</h5>
+            <p>Beli 2 loyang brownies, gratis 1 box cookies kecil.</p>
           </div>
         </div>
-
-        
         <div class="carousel-item">
-          <img
-            id="fotoAtas2"
-            src=""
-            class="d-block w-100"
-            alt="Slide 3"
-          >
+          <img id="fotoAtas2" src="img/atas3.jpg" class="d-block w-100" alt="Hampers kue terbaru">
           <div class="carousel-caption">
-            <h5>Produk Baru Telah Hadir</h5>
-            <p>Cek koleksi hampers terbaru kami</p>
+            <h5>Hampers Baru</h5>
+            <p>Paket hampers mulai Rp 85.000, bisa tambah kartu ucapan.</p>
           </div>
         </div>
-
       </div>
-
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselAtas"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselAtas"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon"></span>
-      </button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselAtas" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselAtas" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
     </div>
-
- 
     <div class="dashboard">
       <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
         <div>
           <h2 class="mb-0">Dashboard Toko</h2>
-          <p class="mb-0">Halo, Bu Sari. Ini ringkasan toko Anda hari ini.</p>
+          <p class="mb-0">Halo, Bu Sari. Ini ringkasan toko hari ini.</p>
         </div>
         <div>
-          <small class="text-muted">
-            Tanggal: <span id="tanggalSekarang">-</span>
-            |
-            Jam: <span id="jamSekarang">-</span>
-          </small>
+          <small class="text-muted">Tanggal: <span id="tanggalSekarang">-</span> | Jam: <span id="jamSekarang">-</span></small>
         </div>
       </div>
-
       <hr>
-
       <div class="row g-3">
-
-       
         <div class="col-md-4">
           <div class="kotak">
             <h3>Ringkasan Toko</h3>
-            <p>Selamat datang kembali, Bu Sari. Toko Anda berkembang pesat bulan ini.</p>
-            <p>Penjualan naik 18% dibandingkan bulan lalu. Pertahankan!</p>
+            <p>Selamat datang kembali, Bu Sari. Minggu ini pesanan naik sedikit dibanding minggu lalu, kebanyakan dari brownies dan bolu pandan.</p>
+            <p>Sisa stok bolu pandan tinggal 4 loyang, jangan lupa restock sore ini.</p>
           </div>
         </div>
-
-        
         <div class="col-md-4">
           <div class="kotak">
             <h3>Menu Cepat</h3>
@@ -542,353 +240,150 @@
             <a href="#" class="quick-link">Laporan</a>
             <hr>
             <ul class="info-list">
-              <li>✅ Stok diperbarui hari ini</li>
-              <li>✅ 3 pesanan menunggu dikirim</li>
-              <li>⚠️ 1 produk stoknya menipis</li>
+              <li>Stok diperbarui tadi pagi jam 07.30</li>
+              <li>4 pesanan menunggu dikirim hari ini</li>
+              <li>1 produk stoknya tinggal sedikit: Bolu Pandan</li>
             </ul>
           </div>
         </div>
-
-      
         <div class="col-md-4">
           <div class="kotak kotak-biru">
             <h3>Panel Ringkasan</h3>
-            <p>Ringkasan kinerja toko Anda hari ini.</p>
-
-            <div class="stat-box">
-              📦 Penjualan: <b>Rp 12.500.000</b>
-            </div>
-            <div class="stat-box">
-              👥 Pengunjung: <b>1.245</b>
-            </div>
-            <div class="stat-box">
-              🛒 Pesanan Baru: <b>38</b>
-            </div>
-            <div class="stat-box">
-              ⭐ Rating: <b>4,8 / 5</b>
-              <span class="rating">★★★★★</span>
-            </div>
-
+            <p>Kinerja toko hari ini, per jam 10.00.</p>
+            <div class="stat-box">Penjualan: <b>Rp 11.873.000</b></div>
+            <div class="stat-box">Pengunjung: <b>1.187</b></div>
+            <div class="stat-box">Pesanan Baru: <b>37</b></div>
+            <div class="stat-box">Rating: <b>4,7 / 5</b> <span class="rating">★★★★★</span></div>
             <hr>
-
-            <h5>Kategori Populer</h5>
-            <span class="badge badge-category">Kue</span>
-            <span class="badge badge-category">Hampers</span>
-            <span class="badge badge-category">Camilan</span>
-
+            <h5>Kategori Paling Laku</h5>
+            <span class="badge badge-category">Brownies</span>
+            <span class="badge badge-category">Bolu Pandan</span>
+            <span class="badge badge-category">Cookies</span>
             <div class="quote-box mt-3">
-              <p>"Dashboard ini sangat membantu saya memantau toko."</p>
-              <small>— Rian, Pelanggan Setia</small>
+              <p>"Browniesnya enak, anak-anak suka. Pesan lagi buat arisan minggu depan."</p>
+              <small>- Ibu Rian, Pelanggan di Bandung</small>
             </div>
           </div>
         </div>
-
-      
         <div class="col-md-6">
           <div class="kotak">
-            <h3>Langkah Optimasi</h3>
-            <p>Tiga langkah cepat untuk meningkatkan penjualan:</p>
+            <h3>Yang Harus Dikerjakan</h3>
+            <p>Tiga hal yang mau saya kerjakan minggu ini:</p>
             <ol class="info-list" style="list-style: decimal; padding-left: 20px;">
-              <li>Perbaiki foto produk</li>
-              <li>Tulis deskripsi yang jelas</li>
-              <li>Aktifkan notifikasi pesanan</li>
+              <li>Foto ulang bolu pandan, foto lama agak gelap</li>
+              <li>Perjelas deskripsi hampers di katalog</li>
+              <li>Balas 3 chat pelanggan yang belum dibalas</li>
             </ol>
           </div>
         </div>
-
-       
         <div class="col-md-6">
           <div class="kotak">
             <h3>Metrik Utama</h3>
-            <div class="metrik">
-              <span>Pengunjung</span>
-              <b>12.480</b>
-            </div>
-            <div class="metrik">
-              <span>Tingkat Konversi</span>
-              <b>2,8%</b>
-            </div>
-            <div class="metrik">
-              <span>Pendapatan</span>
-              <b>Rp 12,5 juta</b>
-            </div>
+            <div class="metrik"><span>Pengunjung bulan ini</span><b>11.932</b></div>
+            <div class="metrik"><span>Yang jadi beli</span><b>3,1%</b></div>
+            <div class="metrik"><span>Pendapatan bulan ini</span><b>Rp 11,8 juta</b></div>
           </div>
         </div>
-
-       
         <div class="col-md-4">
           <div class="kotak">
             <h3>Testimoni</h3>
-            <p>"TokoKita membantu saya berjualan online tanpa ribet."</p>
-            <small>— Bu Sari</small>
+            <p>"Saya pesan hampers buat ibu saya, packingnya rapi dan sampai masih fresh."</p>
+            <small>- Sari, Pembeli Hampers</small>
           </div>
         </div>
-
-     
         <div class="col-md-4">
           <div class="kotak">
-            <h3>Kutipan</h3>
-            <p>"Kualitas adalah prioritas utama."</p>
-            <small>— Anonim, Buku Panduan</small>
+            <h3>Catatan Saya</h3>
+            <p>"Usahakan semua pesanan H-1 dikonfirmasi maksimal jam 20.00, biar dapur tidak keteteran."</p>
+            <small>- Catatan Bu Sari</small>
           </div>
         </div>
-
-       
         <div class="col-md-4">
           <div class="kotak">
             <h3>Kontak Toko</h3>
-            <p>
-              <b>Dapur Bu Sari</b><br>
-              007 Jalan Merdeka<br>
-              Bandung, Jawa Barat 40111<br>
-              Telepon: (022) 123-4567<br>
-              sari@tokokita.id
-            </p>
+            <p><b>Dapur Bu Sari</b><br>Jl. Merdeka No. 27<br>Bandung, Jawa Barat 40111<br>Telepon: 0812-3456-7890<br>sari@dapurbuseri.id</p>
           </div>
         </div>
-
       </div>
     </div>
 
-    
     <div class="galeri-title">
       <h3>Galeri Toko</h3>
-      <p>Foto-foto produk terbaru kami</p>
+      <p>Foto produk yang saya upload minggu ini</p>
     </div>
 
-
-    <div
-      id="carouselBawah"
-      class="carousel slide galeri-wrap"
-      data-bs-ride="carousel"
-      data-bs-interval="2500"
-    >
+    <div id="carouselBawah" class="carousel slide galeri-wrap" data-bs-ride="carousel" data-bs-interval="2500">
       <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselBawah"
-          data-bs-slide-to="0"
-          class="active"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselBawah"
-          data-bs-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselBawah"
-          data-bs-slide-to="2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselBawah"
-          data-bs-slide-to="3"
-        ></button>
+        <button type="button" data-bs-target="#carouselBawah" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselBawah" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselBawah" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#carouselBawah" data-bs-slide-to="3"></button>
       </div>
-
       <div class="carousel-inner">
-
-       
         <div class="carousel-item active">
-          <img
-            id="fotoBawah0"
-            src=""
-            class="d-block w-100"
-            alt="Galeri 1"
-          >
-          <div class="carousel-caption">
-            <h5>Kue Ulang Tahun</h5>
-            <p>Best seller minggu ini</p>
-          </div>
+          <img id="fotoBawah0" src="img/bawah1.jpg" class="d-block w-100" alt="Kue ulang tahun cokelat">
+          <div class="carousel-caption"><h5>Brownies Ulang Tahun</h5><p>Paling sering dipesan buat ulang tahun anak.</p></div>
         </div>
-
-        
         <div class="carousel-item">
-          <img
-            id="fotoBawah1"
-            src=""
-            class="d-block w-100"
-            alt="Galeri 2"
-          >
-          <div class="carousel-caption">
-            <h5>Hampers Lebaran</h5>
-            <p>Paket spesial untuk keluarga</p>
-          </div>
+          <img id="fotoBawah1" src="img/bawah2.jpg" class="d-block w-100" alt="Hampers kue untuk lebaran">
+          <div class="carousel-caption"><h5>Hampers Lebaran</h5><p>Isi brownies, cookies, dan bolu mini.</p></div>
         </div>
-
-    
         <div class="carousel-item">
-          <img
-            id="fotoBawah2"
-            src=""
-            class="d-block w-100"
-            alt="Galeri 3"
-          >
-          <div class="carousel-caption">
-            <h5>Camilan Kering</h5>
-            <p>Renyah dan selalu fresh</p>
-          </div>
+          <img id="fotoBawah2" src="img/bawah3.jpg" class="d-block w-100" alt="Cookies kering di toples">
+          <div class="carousel-caption"><h5>Cookies Kering</h5><p>Tahan 2 minggu di toples, cocok buat stok di rumah.</p></div>
         </div>
-
-    
         <div class="carousel-item">
-          <img
-            id="fotoBawah3"
-            src=""
-            class="d-block w-100"
-            alt="Galeri 4"
-          >
-          <div class="carousel-caption">
-            <h5>Dapur Bu Sari</h5>
-            <p>Dibuat dengan cinta setiap hari</p>
-          </div>
+          <img id="fotoBawah3" src="img/bawah4.jpg" class="d-block w-100" alt="Dapur Bu Sari sedang memanggang kue">
+          <div class="carousel-caption"><h5>Dapur Bu Sari</h5><p>Semua kue dipanggang di dapur sendiri, bukan reseller.</p></div>
         </div>
-
       </div>
-
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselBawah"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselBawah"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon"></span>
-      </button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselBawah" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselBawah" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
     </div>
 
     <footer class="footer-custom">
       <div class="row g-4">
-
         <div class="col-md-4">
           <h5>Tentang Kami</h5>
-          <p>Deskripsi singkat tentang website lu bro.</p>
+          <p>Dapur Bu Sari adalah toko kue rumahan di Bandung. Kami jual brownies, bolu, cookies, dan hampers. Semua dibuat fresh setiap hari, pesanan bisa H-1.</p>
           <a href="#" class="social-btn">FB</a>
           <a href="#" class="social-btn">IG</a>
           <a href="#" class="social-btn">X</a>
         </div>
-
         <div class="col-md-4">
           <h5>Menu</h5>
-          <p>
-            <a href="#">&gt; Home</a><br>
-            <a href="#">&gt; Profil</a><br>
-            <a href="#">&gt; Layanan</a><br>
-            <a href="#">&gt; Kontak</a>
-          </p>
+          <p><a href="#">&gt; Home</a><br><a href="#">&gt; Profil</a><br><a href="#">&gt; Layanan</a><br><a href="#">&gt; Kontak</a></p>
         </div>
-
         <div class="col-md-4">
           <h5>Newsletter</h5>
-          <p>
-            Jl. Contoh No. 123<br>
-            Jakarta, Indonesia
-          </p>
+          <p>Jl. Merdeka No. 27<br>Bandung, Indonesia</p>
           <div class="d-flex">
-            <input
-              type="email"
-              class="newsletter-input"
-              placeholder="Email lu bro"
-            >
+            <input type="email" class="newsletter-input" placeholder="Masukkan email Anda">
             <button class="newsletter-btn">Kirim</button>
           </div>
         </div>
-
       </div>
-
       <div class="footer-bottom">
-        © 2025 Dashboard - All Rights Reserved
+        © 2025 Dapur Bu Sari - All Rights Reserved<br>
+        Dibuat oleh: Naufal - Kelas: MI-26-1-1 - Tugas Dashboard
       </div>
     </footer>
-
   </div>
 
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
   <script>
-
-    const FOTO_ATAS = [
-      "img/atas1.jpg",
-      "img/atas2.jpg",
-      "img/atas3.jpg"
-    ];
-
-    const FOTO_BAWAH = [
-      "img/bawah1.jpg",
-      "img/bawah2.jpg",
-      "img/bawah3.jpg",
-      "img/bawah4.jpg"
-    ];
-
-    FOTO_ATAS.forEach((src, i) => {
-      const el = document.getElementById('fotoAtas' + i);
-      if (el) {
-        el.src = src;
-      }
-    });
-
-    FOTO_BAWAH.forEach((src, i) => {
-      const el = document.getElementById('fotoBawah' + i);
-      if (el) {
-        el.src = src;
-      }
-    });
-
-
-    function updateDateTime() {
-      const now = new Date();
-
-      const hariList = [
-        'Minggu',
-        'Senin',
-        'Selasa',
-        'Rabu',
-        'Kamis',
-        'Jumat',
-        'Sabtu'
-      ];
-
-      const bulanList = [
-        'Januari',
-        'Februari',
-        'Maret',
-        'April',
-        'Mei',
-        'Juni',
-        'Juli',
-        'Agustus',
-        'September',
-        'Oktober',
-        'November',
-        'Desember'
-      ];
-
-      const hari = hariList[now.getDay()];
-      const tanggal = now.getDate();
-      const bulan = bulanList[now.getMonth()];
-      const tahun = now.getFullYear();
-
-      const jam = String(now.getHours()).padStart(2, '0');
-      const menit = String(now.getMinutes()).padStart(2, '0');
-      const detik = String(now.getSeconds()).padStart(2, '0');
-
-      document.getElementById('tanggalSekarang').textContent =
-        `${hari}, ${tanggal} ${bulan} ${tahun}`;
-
-      document.getElementById('jamSekarang').textContent =
-        `${jam}:${menit}:${detik}`;
+    function updateTanggalJam() {
+      var sekarang = new Date();
+      var tanggal = sekarang.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+      var jam = sekarang.toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      var elTanggal = document.getElementById('tanggalSekarang');
+      var elJam = document.getElementById('jamSekarang');
+      if (elTanggal) elTanggal.textContent = tanggal;
+      if (elJam) elJam.textContent = jam;
     }
-
-    updateDateTime();
-    setInterval(updateDateTime, 1000);
-
+    updateTanggalJam();
+    setInterval(updateTanggalJam, 1000);
   </script>
 </body>
 </html>
